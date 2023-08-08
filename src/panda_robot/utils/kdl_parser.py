@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # A parser for converting Python URDF objects into KDL Trees.
 #
@@ -107,5 +107,3 @@ def kdl_tree_from_urdf_model(urdf):
                                 add_children_to_tree(child_name)
     add_children_to_tree(root)
     return tree
-
-

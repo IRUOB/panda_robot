@@ -1,18 +1,18 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # /***************************************************************************
 
-# 
+#
 # @package: panda_robot
 # @author: Saif Sidhik <sxs1412@bham.ac.uk>
-# 
+#
 
 # **************************************************************************/
 
 # /***************************************************************************
 # Copyright (c) 2019-2021, Saif Sidhik
 # Copyright (c) 2013-2018, Rethink Robotics Inc.
- 
+
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -54,7 +54,7 @@ numberpad of the keyboard.
     Warning: The robot will move according to the key press. Also,
         note that the motion will be slightly jerky (small noise from the
         robot joints). This is because of the non-smooth commands sent to
-        the robot via direct joint position control (using IK). 
+        the robot via direct joint position control (using IK).
         Using impedance control will produce smoother motion by definition.
 """
 
@@ -62,7 +62,7 @@ pos_increment = 0.01
 # ori_increment = 0.001
 def map_keyboard():
     """
-        Map keyboard keys to robot joint motion. Keybindings can be 
+        Map keyboard keys to robot joint motion. Keybindings can be
         found when running the script.
     """
 
@@ -152,6 +152,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
